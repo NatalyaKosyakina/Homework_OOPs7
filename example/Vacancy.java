@@ -5,6 +5,7 @@ import java.util.Random;
 public class Vacancy {
     private static Random random = new Random();
     private String name;
+    private String typeEmployee;
 
     private  double maxSalary;
 
@@ -21,6 +22,7 @@ public class Vacancy {
         this.name = name;
         this.maxSalary = maxSalary;
     }
+
 
     public boolean equals(Vacancy obj) {
         return this.name.equals(obj.name);

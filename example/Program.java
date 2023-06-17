@@ -17,12 +17,14 @@ public class Program {
         Company yandex = new Company("Yandex", 120000, jobAgency);
 
         Master ivanov = new Master("Ivanov", "Analyst");
+        Clerk vasechkina = new Clerk("Васечкина", "Teacher");
         Master petrov = new Master("Petrov", "Programmer");
         Student sidorov = new Student("Sidorov");
 
         jobAgency.registerObserver(ivanov);
         jobAgency.registerObserver(petrov);
         jobAgency.registerObserver(sidorov);
+        jobAgency.registerObserver(vasechkina);
 
         for (int i = 0; i < 5; i++){
             geekBrains.createVacancy("Teacher");

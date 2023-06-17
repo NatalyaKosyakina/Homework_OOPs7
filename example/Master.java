@@ -3,7 +3,6 @@ package org.example;
 import java.util.Random;
 
 public class Master implements Observer {
-
     private static Random random = new Random();
 
     private String name;

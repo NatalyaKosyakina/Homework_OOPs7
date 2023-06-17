@@ -27,5 +27,4 @@ public class Company {
         vacancies.add(newvacancy);
         jobAgency.sendOffer(companyName, newvacancy);
     }
-
 }
